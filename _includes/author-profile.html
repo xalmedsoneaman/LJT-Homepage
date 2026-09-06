@@ -20,18 +20,6 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
-  <!-- Featured Publications Section - Added to home page -->
-  <div class="author__publications" style="margin-top: 2em; padding-top: 2em; border-top: 1px solid #eee;">
-    <h4>Featured Publications</h4>
-    {% for post in site.publications reversed limit:3 %}
-      <div style="margin-bottom: 1em;">
-        <a href="{{ base_path }}{{ post.url }}" style="font-weight: bold;">{{ post.title }}</a>
-        <p style="margin: 0.25em 0 0 0; font-size: 0.9em; color: #666;">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
-      </div>
-    {% endfor %}
-    <a href="{{ base_path }}/publications/" style="font-size: 0.9em; margin-top: 0.5em; display: inline-block;">View all publications →</a>
-  </div>
-
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
