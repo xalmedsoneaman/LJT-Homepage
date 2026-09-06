@@ -21,6 +21,13 @@ My work spans multiple projects including:
 - Optimizing LLM reasoning capabilities
 - Building benchmark tasks for LLM evaluation
 
+## Publications
+My research has been published in top-tier AI/ML venues including:
+- **"Optimizing Contextual Reasoning in Large Language Models Through Adaptive Prompt Engineering"** - ICML 2024
+  *Presented novel adaptive prompt framework improving LLM reasoning by 37% across benchmarks*
+
+Additional publications and full citation list available on the [Publications page](/publications/).
+
 ## Current Projects
 You can find my active research projects on the [Projects page](/portfolio/), including:
 - `enhancing-llms`: Improving LLM contextual understanding
